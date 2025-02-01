@@ -24,8 +24,6 @@ function generatePassword(){
 function CopyPass(){
     passwordBox.select();
     navigator.clipboard.writeText(passwordBox.value);
-    console.log(`you copied this '${passwordBox.value}'`);
-    
 }
 
 window.addEventListener('load', ()=>{
